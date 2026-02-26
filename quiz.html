@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Security Project Quiz</title>
+
+<style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 30px;
+    line-height: 1.6;
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+.progress-container {
+    width: 100%;
+    background: #eee;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    height: 20px;
+}
+
+.progress-bar {
+    height: 100%;
+    width: 0%;
+    background: #4CAF50;
+    border-radius: 20px;
+    transition: width 0.4s ease;
+}
+
+.question {
+    display: none;
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.question.active {
+    display: block;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    cursor: pointer;
+}
+
+.feedback {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.correct {
+    color: green;
+}
+
+.wrong {
+    color: red;
+}
+
+.result {
+    margin-top: 30px;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+</style>
+</head>
+
+<body>
+
+<h1>Security Testing for Python Quiz</h1>
+<p>Select the best answer for each question.</p>
+
+<div class="progress-container">
+    <div class="progress-bar" id="progressBar"></div>
+</div>
+
+<form id="questionnaire">
+
+<!-- QUESTION TEMPLATE bug- default value for q1 does not work in Firefox...-->
+<div class="question active">
+<p>1. Why is Security Testing for Python important?</p>
+<label><input type="radio" name="q1" value="correct">Python is the most widely used programming language. And Python code is not immune for vulnerabilities.</label>
+<label><input type="radio" name="q1" value="wrong">It is not. Python is immune for threats.</label>
+<label><input type="radio" name="q1" value="wrong" checked>To prevent global warming.</label> 
+<label><input type="radio" name="q1" value="wrong"> To get an ISO/NEN certificate.</label>
+<div class="feedback"></div>
+</div>
+
+<div class="question">
+<p>2. Is Python code compiled or interpreted?</p>
+<label><input type="radio" name="q2" value="wrong"> Compiled</label>
+<label><input type="radio" name="q2" value="wrong"> Interpreted</label>
+<label><input type="radio" name="q2" value="correct"> Both</label>
+<label><input type="radio" name="q2" value="wrong"> None, it is directly executed.</label>
+<div class="feedback"></div>
+</div>
+
+<div class="question">
+<p>3. What is essential for selection a Python security test tool?</p>
+<label><input type="radio" name="q3" value="correct"> Is must minimal be FOSS.</label>
+<label><input type="radio" name="q3" value="wrong"> It must be expensive to use. This ensures that it is a good tool</label>
+<label><input type="radio" name="q3" value="wrong"> Is must be created by AI</label>
+<label><input type="radio" name="q3" value="wrong"> It must run in the Cloud only!</label>
+<div class="feedback"></div>
+</div>
+
+<div class="question">
+<p>4. Should you use a SAST tool for Python testing?</p>
+<label><input type="radio" name="q4" value="wrong"> No, this is not essential.</label>
+<label><input type="radio" name="q4" value="wrong"> It depends.</label>
+<label><input type="radio" name="q4" value="wrong"> Only when required by a manager.</label>
+<label><input type="radio" name="q4" value="correct"> Using a FOSS specific SAST tool is a minimum for security testing and validation.</label>
+<div class="feedback"></div>
+</div>
+
+<div class="question">
+<p>5. Why is creating a secure test environment needed?</p>
+<label><input type="radio" name="q5" value="wrong"> Only to guarantee reproducibility of test.</label>
+<label><input type="radio" name="q5" value="correct"> To avoid malware in the test environment.</label>
+<label><input type="radio" name="q5" value="wrong"> To meet compliance regulations.</label>
+<label><input type="radio" name="q5" value="wrong"> To speed up testing.</label>
+<div class="feedback"></div>
+</div>
+
+<div class="question">
+<p>6. What is the 80/20 rule for Python Security testing?</p>
+<label><input type="radio" name="q6" value="wrong"> Tools do 20% of the work.</label>
+<label><input type="radio" name="q6" value="wrong"> Tools can do 100% of the work, but only 80% is correct.</label>
+<label><input type="radio" name="q6" value="correct"> Most security defects can be found with 20% smart testing efforts.</label>
+<label><input type="radio" name="q6" value="wrong"> Human work needed for validation and testing is only 20% work and 80% preparation.</label>
+<div class="feedback"></div>
+</div>
+
+
+<div class="question">
+<p>7. What are common weaknesses in Python code?</p>
+<label><input type="radio" name="q7" value="wrong"> Use of insecure editors.</label>
+<label><input type="radio" name="q7" value="wrong"> SHA1 usage for certificate validation</label>
+<label><input type="radio" name="q7" value="wrong"> Injection attacks</label>
+<label><input type="radio" name="q7" value="correct"> Injection attacks, insecure deserialization and path traversal attacks</label>
+<div class="feedback"></div>
+</div>
+
+
+<div class="question">
+<p>8. Why are Reproducible Builds for packages important?</p>
+<label><input type="radio" name="q8" value="correct"> To ensure that software supply chain is not compromised. </label>
+<label><input type="radio" name="q8" value="wrong"> To audit if all business requirements are all implemented.</label>
+<label><input type="radio" name="q8" value="wrong"> It is not, since Python is immune for supply chain attacks</label>
+<label><input type="radio" name="q8" value="wrong"> To validate if developers are security certified. </label>
+<div class="feedback"></div>
+</div>
+
+
+<div class="question">
+<p>9. How to handle security findings?</p>
+<label><input type="radio" name="q9" value="wrong"> Publish everything on internet since that is the spirit of Open Source. </label>
+<label><input type="radio" name="q9" value="correct"> Secure the findings , so encrypt everything and restrict access on the report on a need to know basis.</label>
+<label><input type="radio" name="q9" value="wrong"> Mail it to the developers manager and blame the poor security practices found.</label>
+<label><input type="radio" name="q9" value="wrong"> Add the findings directly to the code repository, which can be private or public.</label>
+<div class="feedback"></div>
+</div>
+
+
+<div class="question">
+<p>10. What are key capabilities of the SAST tool Python Code Audit?</p>
+<label><input type="radio" name="q10" value="wrong"> It can do complexity scans. </label>
+<label><input type="radio" name="q10" value="wrong"> It can do SAST scans on code.</label>
+<label><input type="radio" name="q10" value="wrong"> It can detect external Egress Risks</label>
+<label><input type="radio" name="q10" value="correct"> It can check for known vulnerabilities in modules, perform SAST scans, perform complexity scans and can detect external Egress Risks.</label>
+<div class="feedback"></div>
+</div>
+
+<!-- Repeat same structure for more  -->
+<!-- (Just copy and adjust question number + answers) -->
+
+</form>
+
+<div id="result" class="result"></div>
+
+<script>
+const questions = document.querySelectorAll('.question');
+const progressBar = document.getElementById('progressBar');
+const resultDiv = document.getElementById('result');
+
+let currentQuestion = 0;
+let score = 0;
+
+function updateProgress() {
+    const percent = ((currentQuestion) / questions.length) * 100;
+    progressBar.style.width = percent + "%";
+}
+
+questions.forEach((question, index) => {
+    const radios = question.querySelectorAll('input[type="radio"]');
+    const feedback = question.querySelector('.feedback');
+
+    radios.forEach(radio => {
+        radio.addEventListener('change', () => {
+
+            // Lock answers
+            radios.forEach(r => r.disabled = true);
+
+            // Immediate feedback
+            if (radio.value === "correct") {
+                feedback.textContent = "✔ Correct!";
+                feedback.className = "feedback correct";
+                score++;
+            } else {
+                feedback.textContent = "✘ Incorrect!";
+                feedback.className = "feedback wrong";
+            }
+
+            currentQuestion++;
+            updateProgress();
+
+            setTimeout(() => {
+                question.classList.remove('active');
+
+                if (index + 1 < questions.length) {
+                    questions[index + 1].classList.add('active');
+                } else {
+                    autoSubmit();
+                }
+            }, 900);
+        });
+    });
+});
+
+function autoSubmit() {
+    progressBar.style.width = "100%";
+    resultDiv.textContent = `Final Score: ${score} / ${questions.length}`;
+}
+
+updateProgress();
+</script>
+
+</body>
+</html>

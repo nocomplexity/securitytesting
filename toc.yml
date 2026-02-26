@@ -1,0 +1,66 @@
+version: 1
+project:
+  toc:
+    - file: index.md
+    - file: module1/module1_overview.md #dropdown menu        
+      children:
+        - file: module1/riskmitigation.md
+        - file: module1/pythonexecutionmodel.md
+        - file: module1/pythonsecuritymodel.md
+        - file: module1/threatmodel.md
+        - file: module1/attacklandscape.md    
+    - file: module2/module2_overview.md     #dropdown menu    
+      children:
+        - file: module2/testselection.md
+        - file: module2/fosstestsoftware.md
+        - file: module2/toolselection.md
+        - file: module2/ai_testing.md
+    - file: module3/module3_overview.md     #dropdown menu    
+      children:
+          - file: module3/pareto.md
+          - file: module3/foundation_of_sast.md
+          - file: module3/human_in_the_loop.md
+    - file: module4/module4_overview.md     #dropdown menu    
+      children:
+          - file: module4/isolation.md
+          - file: module4/safe_environments.md
+          - file: module4/reproducibility.md
+          - file: module4/secure_findings.md
+          - file: module4/installation_of_tools.md          
+    - file: module5/module5_overview.md     #dropdown menu    
+      children:
+          - file: module5/installation.md
+          - file: module5/dependency_checking.md
+          - file: module5/complexitycheck.md
+          - file: module5/sastscan.md
+          - file: module5/sast_boundaries.md
+          - file: module5/paretoprinciple.md
+    - file: module6/module6_overview.md     #dropdown menu    
+      children:
+        - file: module6/common_weaknesses.md
+          children:
+             - file: module6/deserialization.md
+             - file: module6/injection_attacks.md
+             - file: module6/pathtraversal.md
+        - file: module6/pip_audit.md
+        - file: module6/aipatterns.md
+    - file: module7/module7_overview.md     #dropdown menu
+      children:
+        - file: module7/module7_intro.md
+        - file: module7/why_checklists.md
+          children:
+            - file: module7/osps-checklist.md
+            - file: module7/reproduciblebuilds.md
+        - file: module7/evalFOSS.md
+    - file: module8/module8_overview.md     #dropdown menu
+      children:
+          - file: module8/reporting.md
+          - file: module8/using_cvss.md
+          - file: module8/reporting_practices.md
+    - file: module9/module9_overview.md     
+    - file: about_this_course.md
+      children:
+        - file: contributing.md
+        - file: aboutnocx.md
+        - file: license.md
+    
