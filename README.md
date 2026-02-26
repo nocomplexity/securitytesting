@@ -25,7 +25,7 @@ This course is designed for developers and security enthusiasts, taking you from
 
 
 > [!CAUTION]
-> This course assumes a basic familiarity with Python syntax and the command line.
+> **This course assumes a basic familiarity with Python syntax and the command line.**
 
 
 It is designed to take you from a security novice to a proficient code auditor. Rather than focusing solely on theory, we will take a practical approach—identifying and resolving vulnerabilities in **Python code** using **Static Application Security Testing (SAST)** tools.
@@ -56,37 +56,36 @@ To get the most from this course (and to complete it successfully), you should a
 Overview of modules:
 1. [Module 1](module1/module1-overview): Understanding Python Security Threats.
 
-+++
 
 2. [Module 2](module2/module2_overview): Choosing the Right Tools for Effective Python Security Testing.
 
-+++
+
 
 3. [Module 3](module3/module3_overview): Harnessing Static Application Security Testing (SAST) for Python Code
 Deep coverage of Python Code Audit, the advantages of a SAST for Python code,  and use cases.
 
-+++
+
 
 4. [Module 4](module4/module4_overview): Setting up a Python Security Testing Environment.
 
-+++
+
 
 
 5. [Module 5](module5/module5_overview): Detecting and Exploiting Common Python Vulnerabilities with **Python Code Audit**.
 
-+++
+
 
 5. [Module 6](module6/module6_overview): In-Depth Analysis: Detecting and Exploiting Common Python Vulnerabilities and Hands-on exercises.
 
-+++
+
 
 6. [Module 7](module7/module7_overview): Security Verification Beyond Testing. 
 
-+++
+
 
 7. [Module 8](module8/module8_overview): Effective Security Reporting. 
 
-+++
+
 
 8. [Module 9](module9/module9_overview): Course Completion & Next Steps.
 
