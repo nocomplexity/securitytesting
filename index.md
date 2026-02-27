@@ -60,7 +60,7 @@ Overview of modules:
 
 +++
 
-3. [Module 3](module3/module3_overview): Harnessing Static Application Security Testing (SAST) for Python Code and why humans are stil crucial for security testing .
+3. [Module 3](module3/module3_overview): Harnessing Static Application Security Testing (SAST) for Python Code and why humans are stil crucial for security testing.
 
 +++
 

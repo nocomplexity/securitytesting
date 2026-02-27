@@ -19,16 +19,21 @@ Problems, suggestions and questions in [Issues](https://github.com/nocomplexity/
 
 :::{admonition} Help development by reporting problems, suggesting changes and asking questions. 
 :class: tip
-To do this, you can create a GitHub Issue for this project. 
-Use the Github icon on every page to:
-* suggest edit or
-* open an issue 
+To do this, you can:
+* [Open an issue](https://github.com/nocomplexity/securitytesting) or
+* Suggest an edit or improvement for the text: Use the Github icon on every page!
+
+Or Contribute by:
 * [Make a donation](https://donate.stripe.com/28E8wP01a9846OD9KQgbm01)
+* Share this link with colleagues, friends, or on social media.
+```html
+https://securitytesting.nocomplexity.com
+```
 * Advocating Python secure programming
 :::
 
 
-**You don't need to change any of our code or documentation to be a contributor!**
+**You don't need to change any of the documentation to be a contributor!**
 
  
 :::{include} donate.md
