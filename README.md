@@ -61,9 +61,7 @@ Overview of modules:
 
 
 
-3. [Module 3](module3/module3_overview): Harnessing Static Application Security Testing (SAST) for Python Code
-Deep coverage of Python Code Audit, the advantages of a SAST for Python code,  and use cases.
-
+3. [Module 3](module3/module3_overview):  Harnessing Static Application Security Testing (SAST) for Python Code and why humans are stil crucial for security testing.
 
 
 4. [Module 4](module4/module4_overview): Setting up a Python Security Testing Environment.
