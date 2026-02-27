@@ -117,7 +117,8 @@ Integrate this into your testing pipeline (e.g., with pytest or a CI/CD script) 
    - Avoid over-reliance on Base scores; incorporate Environmental metrics for context-specific accuracy.
    - In Python apps, consider ecosystem factors like dependency vulnerabilities (scored via tools like Safety CLI, which often include CVSS).
 
-**By using CVSS, your reports become more credible and help drive better security outcomes. 
-
+:::{tip}
+**By using CVSS, your test reports become more credible and help drive better security outcomes.** 
+:::
 
 For further reading, check the [official CVSS User Guide](https://www.first.org/cvss/specification-document) or experiment with online calculators to build familiarity.

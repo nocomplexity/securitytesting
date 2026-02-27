@@ -113,6 +113,6 @@ Python Code Audit assists in mitigating injection attacks by:
 
 Testing for injection attacks in Python code should be conducted using tools such as:
 
-- Specialised FOSS (Free and Open Source Software) tools.
+- Specialised FOSS (Free and Open Source Software) SQL injection tools.
 - Advanced fuzzers
 :::

@@ -131,15 +131,16 @@ Recommended Follow-Up Strategies:
 * Risk reduction over time
 
 
-## Key Takeaways
+## Summary
 
 Effective reporting:
-* Translates technical findings into business risk
+* Translates technical findings into **business risk**
 * Uses structured, reproducible documentation
 * Applies consistent severity scoring
-* Prioritises based on real-world impact
+* Prioritises findings, based on real-world impact
 * Empowers developers with clear, actionable fixes
 * Ensures follow-through until remediation is complete
+
 In professional Python security testing, discovering vulnerabilities demonstrates technical competence.
-Communicating them clearly—and driving their resolution—demonstrates maturity.
+**Communicating them clearly—and driving their resolution—demonstrates maturity.**
 

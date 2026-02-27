@@ -7,10 +7,10 @@ short_title: Security testing and AI
 Many people advocate for the use of AI technology , like AI agents, for Python security testing. 
 
 :::{warning}
-Most are just far from good enough. In the best case scenario, you’ll only be disappointed. But the risk of a false sense of security is enormous.
+Most are just far from good enough. In the best case scenario, you’ll only be disappointed. But the risk of a **false sense of security** is enormous.
 :::
 
-So why should you not use AI powered security test tools for Python?
+So why should you not use or fully trust on AI powered security test tools for Python?
 - **No single tool can judge the context** where a program is used, how it is used and by whom. There is a large difference between using a e.g. a SAST scanner on code from a developer perspective, or to use a SAST scanner as a potential user of some Python software. Based on findings you will and must judge risks differently. Judging risks is always context dependent and can still not be automated. 
 
 +++
@@ -33,4 +33,12 @@ AI and ML technologies can support cyber security, particularly in areas such as
 When AI technology is used, strict reproducibility cannot always be guaranteed due to its probabilistic nature.
 :::
 
-Cyber security professionals should be conservative with adopting new IT hypes for security testing tools. IT hypes like AI-agents and LLMs are not the holy grail for solving our cybersecurity problems. This is because in the end you always pay more for cyber security solutions, but the risks still remain. Cyber security is not a product, but a process.
+Creating security products that ‘learns’ from patterns is not new for security. AI/ML technologies have been applied for many years. For example for HIDS systems and spam-filters. Applying AI for cyber security has been done for many years with variable success and still most AI/ML powered security systems are not mature and can not be fully trusted.
+
+
+Cyber security professionals should be conservative with adopting new IT hypes and innovations for security testing tools. IT hypes like AI-agents and LLMs are not the holy grail for solving our cybersecurity problems. This is because in the end you always pay more for cyber security solutions, but the risks still remain. 
+
+:::{important} 
+Cyber security is not a product, but a process.
+:::
+

@@ -60,8 +60,7 @@ Below is an example how you can see how Python code is compiled to bytecode:
 
 ## Memory Abstraction in Python: Security Benefits and Trade-offs
 
-Unlike lower-level languages such as C or C++, Python does not allow developers to directly manipulate memory addresses. There are no pointers that can be arbitrarily dereferenced, and memory allocation and deallocation are handled automatically by the runtime. This abstraction significantly reduces the risk of certain low-level vulnerabilities.
-Reduced Risk: **Buffer Overflows**
+Unlike lower-level languages such as C or C++, Python does not allow developers to directly manipulate memory addresses. There are no pointers that can be arbitrarily dereferenced, and memory allocation and deallocation are handled automatically by the runtime. This abstraction significantly reduces the risk of certain low-level vulnerabilities, like **Buffer Overflows**.
 
 In languages like C, developers must manually manage memory buffers. A common vulnerability is a buffer overflow, where data written beyond the bounds of an allocated buffer overwrites adjacent memory. This can lead to crashes or, in severe cases, arbitrary code execution.
 
@@ -109,7 +108,7 @@ Although this does not corrupt memory, it can allow an attacker to execute arbit
 
 3. **Reliance on Native Extensions**
 
-While Python itself is memory-safe, many performance-critical libraries (e.g. NumPy, cryptographic libraries) are written in `C`. Vulnerabilities in these native extensions can reintroduce classic memory issues such as buffer overflows.
+While Python itself is memory-safe, many performance-critical libraries (e.g. `NumPy`, cryptographic libraries) are written in `C`. Vulnerabilities in these native extensions can reintroduce classic memory issues such as buffer overflows.
 
 Example:
 - A Python application calls a vulnerable C extension.

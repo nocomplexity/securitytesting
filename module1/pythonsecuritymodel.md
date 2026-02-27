@@ -33,7 +33,7 @@ These mechanisms prevent many classic memory exploitation techniques. However, t
 * Denial-of-service risks through excessive object creation
 * Abuse of large in-memory data structures
 
-Python protects against direct memory manipulation, but it does not protect against logic flaws or resource misuse.
+Python protects against direct memory manipulation, but it does **not protect against logic flaws or resource misuse**.
 
 
 
@@ -105,7 +105,7 @@ Protecting against malware therefore requires:
 
 ### No Built-in Sandbox
 
-It is important to understand that Python does not provide a secure sandbox environment for executing untrusted code. Attempts to “restrict” Python by removing certain built-ins or blocking modules are generally insufficient and can often be bypassed.
+It is important to understand that Python **does not** provide a secure sandbox environment for executing untrusted code. Attempts to “restrict” Python by removing certain built-ins or blocking modules are generally insufficient and can often be bypassed.
 
 True isolation must be implemented at the operating system or infrastructure level, for example using:
 
@@ -131,5 +131,9 @@ Understanding Python’s internal execution model, memory handling, and dynamic 
 
 
 :::{note} 
-**Strong security in Python is not automatic — it is engineered.**
+**Strong security for Python applications is not automatic — it is engineered.**
+:::
+
+:::{caution}
+Many Python frameworks prioritize ease of use over strict security in their default configurations (e.g., debug mode in Flask/Django). Moving to a "hardened" production state is a manual, engineered process.
 :::

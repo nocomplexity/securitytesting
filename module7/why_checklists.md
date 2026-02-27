@@ -37,5 +37,5 @@ Security validation for Python systems deserves the same level of discipline. A 
 * Encourages repeatable and auditable security processes
 * Supports compliance and governance requirements
 
-Most importantly, a checklist transforms security from an informal consideration into a controlled and professional practice. It ensures that validation is deliberate, structured, and reliable—rather than left to assumption or chance.
+Most importantly, **a checklist transforms security from an informal consideration into a controlled and professional practice**. It ensures that validation is deliberate, structured, and reliable—rather than left to assumption or chance.
 

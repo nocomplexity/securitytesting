@@ -12,8 +12,8 @@ project:
   # To autogenerate a Table of Contents, run "jupyter book init --write-toc"
   license:
     content: CC-BY-SA-4.0
-  github: https://github.com/nocomplexity/securitytesting # Change this URL to your GitHub repository
-  edit_url: True
+  github: https://github.com/nocomplexity/securitytesting # Change this URL to your GitHub repository - By default edit_url is activated?
+  #edit_url: 
 
 extends:
   - toc.yml

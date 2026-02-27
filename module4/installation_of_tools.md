@@ -16,7 +16,7 @@ Secure installation of test tools is not optional — it is part of the security
 
 Always install security testing tools in an isolated and controlled environment:
 
-* Use **virtual environments** (`venv`) for project-level isolation.
+* Use **virtual environments** (`venv` or use [`conda`](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html)) for project-level isolation.
 * Prefer **dedicated test machines** or hardened virtual machines.
 * Never install security testing tools directly on production systems.
 * Ensure your operating system and Python interpreter are up to date with security patches.
@@ -121,7 +121,7 @@ This ensures:
 
 ## Document Installed Versions
 
-Never rely on “latest” versions in professional environments. Explicitly specify versions when performing security testing that must be 100% reproducible:
+Never rely on “latest” versions or automatic updates in professional testing environments. Explicitly specify versions when performing security testing that must be 100% reproducible:
 
 ```bash
 pip install toolname==1.4.2

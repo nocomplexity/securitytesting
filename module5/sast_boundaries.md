@@ -3,22 +3,14 @@ title: SAST Boundaries - What Can and Cannot Be Detected?
 short_title: SAST Boundaries 
 ---
 
-Static Application Security Testing (SAST) is one of the core techniques in Python security testing. It analyses source code without executing it, identifying patterns, data flows, and potentially dangerous constructs.
+**Static Application Security Testing (SAST)** is one of the core techniques in Python security testing. It analyses source code without executing it to detect **potentially dangerous constructs**.
 
-However, SAST is not magic.
+However, SAST tools for Python are not magic.
 
-Understanding its capabilities and limitations is critical if you are to use it effectively — or assess its results correctly during an engagement.
-
-## SAST Boundaries: What Can and Cannot Be Detected?
-
-Static Application Security Testing (SAST) is one of the **core techniques in Python security testing**. It analyses source code *without executing it* to detect potentially dangerous constructs.
-
-However, no SAST tool for Python is not magic.
-
-Understanding its **capabilities and limitations** is critical if you are to use it effectively — or assess its results correctly during an engagement.
+Understanding their capabilities and limitations is critical if you are to use them effectively — or assess their results correctly during an engagement.
 
 
-Each works slightly differently, but they all share a fundamental constraint:
+Each SAST tool works slightly differently, but they all share a fundamental constraint:
 
 :::{caution} 
 SAST can only reason about what it can *see in the code*.
@@ -235,9 +227,10 @@ SAST should be treated as:
 * A **triage assistant**
 * A **pattern detector**
 * A **code review accelerator**
-* Not a substitute for human reasoning
 
-Effective workflow:
+**But not as a substitute for human reasoning!**
+
+Effective workflow for SAST testing could be:
 
 1. Run SAST early and often.
 2. Investigate critical sinks manually.
@@ -256,18 +249,16 @@ Effective workflow:
 
 
 
+## Summary
 
-
-# Key Takeaways
-
-SAST is powerful at detecting:
+SAST for Python is powerful at detecting:
 
 * Known dangerous APIs
 * Obvious injection flows
 * Misconfigurations
 * Pattern-based weaknesses
 
-SAST is weak at detecting:
+SAST tools are weak at detecting:
 
 * Business logic flaws
 * Runtime-dependent vulnerabilities

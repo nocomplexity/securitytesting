@@ -61,5 +61,5 @@ Python Static Application Security Testing (SAST) offers significant advantages 
 | Build customer trust & confidence | Loss of reputation and user trust after breaches |
 
 :::{tip}
-While Python is often considered a secure language, also Python applications are susceptible to common security flaws, and **SAST is a crucial, cost-effective method** to address them before deployment.
+While Python is often considered a secure language, also **Python applications are susceptible to common security flaws**, and **SAST is a crucial, cost-effective method** to address them before deployment.
 :::

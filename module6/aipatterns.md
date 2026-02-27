@@ -179,5 +179,5 @@ AI-generated Python code is not automatically insecure — but it is frequently:
 A skilled Python security tester recognises the patterns, then performs deeper manual analysis where automated reasoning has likely fallen short.
 
 :::{note}
-In modern Python security testing, recognising AI coding fingerprints is becoming a core review skill.
+In modern Python security testing, **recognising AI coding fingerprints** is becoming a core review skill.
 :::

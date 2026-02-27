@@ -4,7 +4,8 @@ To help more people kickstart their Infosec journey, this course is offered on a
 
 Why contribute? Your donations directly fund the ongoing maintenance, updates, and development of new high-quality security resources.
 
-Our Mission: To [simplify cybersecurity](https://simplifysecurity.nocomplexity.com) and ensure high-level training remains a public good, not a gated commodity.
+Our Mission: To [simplify cybersecurity](https://simplifysecurity.nocomplexity.com) and transform elite training into a public good, rather than a gated commodity.
+
 
 If you find this material valuable, please consider supporting our mission.
 

@@ -7,14 +7,14 @@ short_title: Tool Selection Checklist
 
 Selecting a FOSS (Free and Open Source Software) tool for Python security testing isn't just about finding one that works—it's about ensuring the tool itself meets strict quality, maintenance, and reliability constraints.
 
-A Python security testing tool should meet the following criteria:
+A Python security testing tool should minimal meet the following criteria:
 
-* **FOSS-licensed:** The product must be released under a valid FOSS licence, preferably one approved by the Open Source Initiative (OSI).
+* **FOSS-licensed:** The product must be released under a valid FOSS licence, preferably one approved by the [Open Source Initiative (OSI)](https://opensource.org/).
 * **Local-first deployment:** The tool should run locally or on a server within your own security perimeter. Avoid SaaS-only solutions where you cannot control the execution environment or data handling.
 * **Actively maintained:** The project should be active and demonstrate an acceptable level of quality, including regular updates and issue management.
 * **Public version control repository:** The source code must be publicly accessible in a version-controlled repository with a clear and verifiable URL.
 
-Ideally, projects should also meet the minimum requirements outlined by the [OpenSSF Best Practices Badge](https://www.bestpractices.dev/en) Program. However, despite significant effort from the community, this programme is still not widely recognised or adopted.
+Ideally, projects should also meet the minimum requirements outlined by the [OpenSSF Best Practices Badge](https://www.bestpractices.dev/en) Program. However, despite significant effort from the community, this programme is not widely known and adopted.
 
 In practice, you will use a long list when selecting test software for Python.
 For each tool, you should use a proven checklist that helps you choose a suitable FOSS testing tool for your purpose.

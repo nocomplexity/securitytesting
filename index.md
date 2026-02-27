@@ -19,18 +19,18 @@ The aim of this course is to teach you how to carry out security testing on Pyth
 :::
 
 
-This course is designed for developers and security enthusiasts, taking you from basic code hygiene through to advanced automated security analysis. It focuses on reliable open-source security tools to identify vulnerabilities arising from Python’s dynamic nature and the common pitfalls in its ecosystem.
+This course is designed for developers and security enthusiasts, taking you from basic code hygiene through to advanced security analysis. It focuses on using reliable open-source security tools to identify vulnerabilities arising from Python’s dynamic nature and the common pitfalls in its ecosystem.
 
 :::{note}
 This course assumes a basic familiarity with Python syntax and the command line.
 :::
 
-It is designed to take you from a security novice to a proficient code auditor. Rather than focusing solely on theory, we will take a practical approach—identifying and resolving vulnerabilities in **Python code** using **Static Application Security Testing (SAST)** tools.
+It is designed to take you from a security novice to a proficient security code auditor for Python applications. Rather than focusing solely on theory, we will take a practical approach—identifying and resolving vulnerabilities in **Python code** using **Static Application Security Testing (SAST)** tools.
 
 
 ## Who is this course for?
 
-This course is designed for software security testers who want to improve their knowledge and skills in security testing for Python software.
+This course is designed for security testers who want to improve their knowledge and skills in security testing for Python software.
 
 It is also suitable for DevOps professionals, architects, security professionals, AppSec engineers, software engineers, web application developers, and others interested in learning about security testing for Python software.
 
@@ -38,15 +38,15 @@ The course focuses on practical steps that can be taken — even with limited re
 This is not a beginner’s course that simply teaches you to run tools and follow a checklist.
 To get the most from this course (and to complete it successfully), you should already be familiar with:
 
-- software testing
-- using programs from the command-line interface (CLI) on Unix-like systems (Linux or BSD)
+- Security testing
+- Using programs from the command-line interface (CLI) on Unix-like systems (Linux or BSD)
 
 :::{tip}
 Some prior knowledge and experience with security testing is strongly recommended.
 :::
 
 :::{note}
-This course is **not** a beginner’s course, but aims to **deepen the knowledge of professional security testers** in relation to systems built with (or containing) Python code.
+This course is **not** a beginner’s course, but aims to **deepen the knowledge of professional security testers** in relation to systems built with (or containing) **Python** code.
 :::
 
 ## Course Overview
@@ -60,8 +60,7 @@ Overview of modules:
 
 +++
 
-3. [Module 3](module3/module3_overview): Harnessing Static Application Security Testing (SAST) for Python Code
-Deep coverage of Python Code Audit, the advantages of a SAST for Python code,  and use cases.
+3. [Module 3](module3/module3_overview): Harnessing Static Application Security Testing (SAST) for Python Code and why humans are stil crucial for security testing .
 
 +++
 
@@ -70,7 +69,7 @@ Deep coverage of Python Code Audit, the advantages of a SAST for Python code,  a
 +++
 
 
-5. [Module 5](module5/module5_overview): Detecting and Exploiting Common Python Vulnerabilities with **Python Code Audit**.
+5. [Module 5](module5/module5_overview): Detecting and Exploiting Common Python Vulnerabilities with [**Python Code Audit**](https://nocomplexity.com/codeaudit/).
 
 +++
 
