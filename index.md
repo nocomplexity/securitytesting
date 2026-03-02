@@ -1,12 +1,13 @@
 # Introduction
 
-:::{admonition} Standard Security Testing Isn't Enough for Python. 
+
+:::{admonition} Welcome to **Mastering Security Testing for Python**
 :class: tip
-Gain a deep understanding of the methodologies and specialized tools used to conduct professional-grade security validation for Python applications.
+
+**Standard security testing isn’t enough for Python.**
+
+In this course, you will gain a deep understanding of the methodologies and specialised tools used to conduct professional-grade security validation for Python applications.
 :::
-
-
-
 
 
 Generic security testing often fails to uncover the unique risks inherent in Python environments. While many testers are proficient in broad security principles, few possess the specialised insight into Python’s nuances required for truly effective assessments. **Mastering Security Testing for Python** provides the deep-dive expertise you need to secure modern applications with confidence.

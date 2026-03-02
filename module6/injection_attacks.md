@@ -26,7 +26,10 @@ If a user enters:
 __import__("os").system("rm -rf /")
 ```
 
-When using Python Code Audit with do the command:
+There is remote command execution in this code sample!
+
+When using Python Code Audit if this code sample is saved as 'eval_sample.py'. Use the command:
+
 ```bash
 codeaudit filescan eval_sample.py
 ```
@@ -35,11 +38,13 @@ You see that the findings are:
 
 ![sast-findings-input](/images/input_sample.png)
 
-Both `input` and `eval` are detected; since both can be exploited, identifying them is essential. This ensures that when using **Python Code Audit**, the detection of common injection attacks is fully supported.
+
+Both `input` and `eval` are detected; since both can be exploited, identifying them is essential. 
+
+This ensures that when using [**Python Code Audit**](https://nocomplexity.com/codeaudit/), the detection of common injection attacks is fully supported.
 
 
 
-You have remote command execution.
 
 ### What to Look for in SAST findings
 
