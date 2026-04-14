@@ -34,6 +34,7 @@ project:
           - file: module5/complexitycheck.md
           - file: module5/sastscan.md
           - file: module5/sast_boundaries.md
+          - file: module5/egressdetection.md
           - file: module5/paretoprinciple.md
     - file: module6/module6_overview.md     #dropdown menu    
       children:
