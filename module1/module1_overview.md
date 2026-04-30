@@ -33,3 +33,6 @@ In today’s digital world, cybersecurity remains a critical concern. This appli
 Validating Python code for potential vulnerabilities is therefore essential, whether you are writing your own programs or relying on code developed by others.
 
 
+:::{toc}
+:context: children
+:::

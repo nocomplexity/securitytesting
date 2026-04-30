@@ -51,7 +51,7 @@ Below the core high level Python Treat model:
 
 ## STRIDE Threat Model
 
-The following table summarizes the classic **STRIDE** threat categories, with precise definitions using consistent British English phrasing suitable for security documentation.
+The following table summarizes the classic **STRIDE** threat categories.
 
 | **Threat**                 | **Threat Definition**                                                                              |
 |----------------------------|----------------------------------------------------------------------------------------------------|
