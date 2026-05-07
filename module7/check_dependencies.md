@@ -19,8 +19,13 @@ Open Source Insights is a free service developed and hosted by Google. It helps 
 When validating Python projects, the tool provides the following valuable information:
 
 - **OpenSSF Scorecard** (when available) for each project. Note that the Scorecard is not applicable or available for many projects (for example, those that do not run CI/CD workflows on GitHub). The OpenSSF Scorecard provides objective security health metrics for open source projects.
+
++++
+
+
 - **All dependencies** — both direct and indirect. You can view them in a clear table format or as an intuitive visual graph. The graph view is particularly useful for quickly understanding which packages introduce additional dependencies.
-- **Example**: Dependency graph for the [spaCy NLP library](https://github.com/explosion/spacy).
+
+
 
 :::{note} Dependency definition
 :class: dropdown
@@ -37,9 +42,15 @@ The full set of dependencies forms a directed acyclic graph (the *dependency gra
 Other categories, such as test or development dependencies, may also exist.
 :::
 
+**Example**: Dependency graph for the [spaCy NLP library](https://github.com/explosion/spacy).
+All dependencies (both direct and indirect) are also shown in the Graph below. This gives you a clear picture of how widely a package is used across the Python ecosystem.
+
 ![Spacy dependencies](../images/spacy_dependencies.png)
 
-- **All dependents** (both direct and indirect) are also shown. This gives you a clear picture of how widely a package is used across the Python ecosystem.
++++
+
+- **All dependents** — both direct and indirect are shown for a Python package. You can view them in a clear table format.
+
 
 :::{note} Dependents definition
 :class: dropdown
@@ -49,11 +60,17 @@ A *dependent* is the inverse of a dependency. If package P depends on package Q,
 **Direct dependents** are projects that explicitly import the package. **Indirect (transitive) dependents** arise through chains of dependencies. Packages with many transitive dependents are often critical to the wider ecosystem — any vulnerability or breakage in such a package can have far-reaching impact.
 :::
 
-- **Security advisories**, if any exist, are displayed clearly for each package. (Remember that many vulnerabilities are never publicly disclosed.)
 
 The overview of dependents is especially useful, as it immediately shows how many other PyPI packages rely on a given library.
 
 **Example**: [Dependents of the `click` package (v8.3.3)](https://deps.dev/pypi/click/8.3.3/dependents)
+
+
++++
+
+- **Security advisories**, if any exist, are displayed clearly for each package. (Remember that many vulnerabilities are never publicly disclosed.)
+
+
 
 :::{important}
 Using **Google Open Source Insights** is an essential step when evaluating the security of any Python application or library. 
