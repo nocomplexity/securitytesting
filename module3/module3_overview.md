@@ -1,6 +1,6 @@
 ---
 title: The Power of Static Analysis for Python code
-short_title: Module 3
+short_title: Module 3:SAST for Python
 ---
 
 ## Overview
@@ -22,3 +22,10 @@ Automation is essential, but not sufficient. This section highlights the critica
 
 
 By the end of this section, you will understand why focusing on the most critical Python security flaws is vital and most effective. You will also learn what SAST for Python is, its advantages, and how to combine automation with expert review to catch vulnerabilities that tools alone cannot find.
+
+
+## Sections
+
+:::{toc}
+:context: children
+:::

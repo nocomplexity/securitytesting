@@ -1,6 +1,6 @@
 ---
 title: Python Security Testing with Python Code Audit 
-short_title: Module 5
+short_title: Module 5:SAST scan
 ---
 
 
@@ -34,4 +34,11 @@ It is a modern Python security analysis tool built on a zero-trust mindset. The 
 
 :::{important}
 Using Python Code Audit is a crucial step when performing security testing on Python applications.
+:::
+
+
+## Sections
+
+:::{toc}
+:context: children
 :::

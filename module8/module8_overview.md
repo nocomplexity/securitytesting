@@ -1,6 +1,6 @@
 ---
 title: Communicating and reporting
-short_title: Module 8
+short_title: Module 8:Communication
 ---
 
 Security testing only delivers value when its findings are clearly understood and acted upon. In a Python security context—whether reviewing a Django Software Foundation-backed web application, an internal automation tool, or a microservice built with Pallets Projects—the quality of reporting directly influences remediation speed and organisational risk reduction.
@@ -29,3 +29,9 @@ Together, they transform a security tester from someone who identifies vulnerabi
 
 In advanced security testing, technical discovery is expected.
 Clear communication and strategic prioritisation are what distinguish experts.
+
+## Sections
+
+:::{toc}
+:context: children
+:::

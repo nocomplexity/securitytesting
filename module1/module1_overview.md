@@ -1,6 +1,6 @@
 ---
 title: Understanding Python Security Threats and Attack Surfaces
-short_title: Module 1
+short_title: Module 1:Python Security Threats
 ---
 
 ## Module overview 

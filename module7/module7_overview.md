@@ -1,6 +1,6 @@
 ---
 title: The Zero-Execution Defense - Mastering Static Security Analysis
-short_title: Module 7
+short_title: Module 7:Validation techniques
 ---
 
 ## Introduction 
@@ -44,3 +44,10 @@ After completing this module, you will be able to:
 * Critically evaluate open source software before adoption
 
 This module strengthens your ability to combine technical testing with governance-aware security validation — an essential capability for mastering security testing in modern Python environments.
+
+
+## Sections
+
+:::{toc}
+:context: children
+:::

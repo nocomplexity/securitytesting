@@ -53,6 +53,8 @@ project:
             - file: module7/osps-checklist.md
             - file: module7/reproduciblebuilds.md
         - file: module7/evalFOSS.md
+        - file: module7/check_dependencies.md
+
     - file: module8/module8_overview.md     #dropdown menu
       children:
           - file: module8/reporting.md

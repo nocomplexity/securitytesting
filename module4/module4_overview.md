@@ -1,6 +1,6 @@
 ---
 title: Setting Up your test environment
-short_title: Module 4
+short_title: Module 4:Ttest Environment
 ---
 
 
@@ -15,3 +15,11 @@ This module provides an overview of the key elements required to properly set up
 * **Installation of test tools** : Secure and controlled installation practices for Python security tools.
 
 Together, these topics form the foundation for conducting structured, responsible, and professional Python security testing.
+
+
+
+## Sections
+
+:::{toc}
+:context: children
+:::

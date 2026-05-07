@@ -1,6 +1,6 @@
 ---
 title: Module 2 Overview
-short_title: Module 2
+short_title: Module 2:Using the Right Tool
 ---
 
 
@@ -18,3 +18,8 @@ In this section, we will explore:
 
 By the end of this section, you will be able to make informed decisions about security tooling, understand the strategic value of open-source solutions, and critically assess where emerging AI technologies fit into a robust Python security testing strategy.
 
+## Sections
+
+:::{toc}
+:context: children
+:::

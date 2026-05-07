@@ -1,6 +1,6 @@
 ---
 title: Course completion
-short_title: Module 9
+short_title: Module 9:Exam
 ---
 
 

@@ -8,8 +8,7 @@ project:
   #authors: []
   exclude:
     - README.md
-  # github:
-  # To autogenerate a Table of Contents, run "jupyter book init --write-toc"
+  # github:  
   license:
     content: CC-BY-SA-4.0
   github: https://github.com/nocomplexity/securitytesting # Change this URL to your GitHub repository - By default edit_url is activated?
@@ -17,17 +16,7 @@ project:
 
 extends:
   - toc.yml
-
-  # toc:
-  #   - file: index.md # Landing page for course
-  #   - title: Module 1 Foundation  
-  #     children:
-  #       - file: module1/module_01.md
-  #       - file: module1/pythonexecutionmodel.md
-  #   - title: Module 2 
-  #     children:
-  #       - file: module1/module_01.md
-    
+   
 site:
   parts:
     primary_sidebar_footer: primary-sidebar-footer.md

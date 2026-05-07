@@ -32,7 +32,7 @@ Use this Playbook to create better and faster security solutions for your securi
 :::
 
 :::{card}
-:link: https://nocomplexity.com/documents/securitybydesign/intro.html
+:link: http://securitybydesign.nocomplexity.com/
 :header: **Security By Design**        
 
 Security by design is a proven method to develop products that are less vulnerable for cyber security threats.
