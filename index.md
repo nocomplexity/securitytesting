@@ -1,5 +1,11 @@
 # Introduction
 
+:::{image} /images/security_testing_bookcover.png
+:alt: Book Cover Mastering Security Testing for Python
+:width: 500px
+:align: center
+:::
+
 
 :::{admonition} Welcome to **Mastering Security Testing for Python**
 :class: tip
