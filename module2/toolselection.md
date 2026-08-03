@@ -19,6 +19,9 @@ Ideally, projects should also meet the minimum requirements outlined by the [Ope
 In practice, you will use a long list when selecting test software for Python.
 For each tool, you should use a proven checklist that helps you choose a suitable FOSS testing tool for your purpose.
 
+These selection criteria are based on essential [Security by Design Principles](https://nocomplexity.github.io/securitybydesign/securityprinciples/). The rationale behind them is simple: a security tool should be secure itself and not introduce additional security risks.
+
+
 ## Selecting a Static Application Security Test (SAST) Tool for Python
 
 Use a FOSS tool. Free and Open Source Software (FOSS) makes it easier to comply with the proven cybersecurity principle: “Never Trust, Always Verify.” Be cautious of commercial vendors who market their tools as FOSS—too often this is only a marketing claim.
