@@ -1,17 +1,34 @@
-[![PythonCodeAudit Badge](https://img.shields.io/badge/Python%20Code%20Audit-Security%20Verified-FF0000?style=flat-square)](https://github.com/nocomplexity/codeaudit)
+# 🔐 Mastering Security Testing for Python Applications
 
-# Mastering Security Testing for Python Applications
+> **Standard security testing misses the unique risks in Python.**  
+> Learn the specialized methods and tools that professional auditors actually use.
 
+[![PythonCodeAudit](https://img.shields.io/badge/Python%20Code%20Audit-Security%20Verified-FF0000?style=for-the-badge)](https://github.com/nocomplexity/codeaudit)
+[![Happy Readers](https://img.shields.io/badge/Happy_Readers-%3E95k-blue?style=for-the-badge)](https://pythonsecurity.nocomplexity.com)
+[![License](https://img.shields.io/badge/License-CC%20BY--SA-green?style=for-the-badge)](...)
+[![Pay What You Can](https://img.shields.io/badge/Pay_What_You_Can-💛-yellow?style=for-the-badge)](https://donate.stripe.com/28E8wP01a9846OD9KQgbm01)
 
-## Introduction
+[![Book Cover](python_security_testing.png)](https://pythonsecurity.nocomplexity.com)
 
-> [!TIP]
->  Standard Security Testing Isn't Enough for Python. 
-> Gain a deep understanding of the methodologies and specialized tools used to conduct professional-grade security validation for Python applications.
+**Free to read • No registration • No tracking • CC BY-SA**
 
+## Why Most Python Security Testing Falls Short
 
+Standard Security Testing Isn't Enough for Python. Most checklists are not built for Python’s dynamic nature, metaprogramming, and ecosystem pitfalls.  **They miss the vulnerabilities that matter most.**
 
-Generic security testing often fails to uncover the unique risks inherent in Python environments. While many testers are proficient in broad security principles, few possess the specialised insight into Python’s nuances required for truly effective assessments. **Mastering Security Testing for Python** provides the deep-dive expertise you need to secure modern applications with confidence.
+This course gives you the specialized knowledge and practical skills that **professional Python code auditors** actually use — from basic hygiene to [advanced SAST](https://github.com/nocomplexity/codeaudit) and manual exploitation.
+
+## This Course Is For You If…
+
+- You already test software and want to level up specifically on **Python**
+- You’re a DevOps / AppSec / security engineer who keeps seeing Python code
+- You’re tired of generic checklists that miss real Python risks
+- You want more and better practical skills, not just theory.
+
+This **Not** a beginner “run this tool” course. We assume you know the CLI and basic software testing.
+
+> [!NOTE]
+> This course is **not** a beginner’s course, but aims to **deepen the knowledge of professional security testers** in relation to systems built with (or containing) Python code.
 
 
 ## Goal of this course
@@ -20,35 +37,10 @@ Generic security testing often fails to uncover the unique risks inherent in Pyt
 > The aim of this course is to teach you how to carry out security testing on Python programs. You do not need a strong background in Python programming to take this course.
 
 
-
 This course is designed for developers and security enthusiasts, taking you from basic code hygiene through to advanced automated security analysis. It focuses on reliable open-source security tools to identify vulnerabilities arising from Python’s dynamic nature and the common pitfalls in its ecosystem.
 
 
-> [!CAUTION]
-> **This course assumes a basic familiarity with Python syntax and the command line.**
-
-
 It is designed to take you from a security novice to a proficient code auditor. Rather than focusing solely on theory, we will take a practical approach—identifying and resolving vulnerabilities in **Python code** using **Static Application Security Testing (SAST)** tools.
-
-
-## Who is this course for?
-
-This course is designed for software security testers who want to improve their knowledge and skills in security testing for Python software.
-
-It is also suitable for DevOps professionals, architects, security professionals, AppSec engineers, software engineers, web application developers, and others interested in learning about security testing for Python software.
-
-The course focuses on practical steps that can be taken — even with limited resources — to build your skills in security testing for Python software and performing security audits on systems that include Python components.
-This is not a beginner’s course that simply teaches you to run tools and follow a checklist.
-To get the most from this course (and to complete it successfully), you should already be familiar with:
-
-- software testing
-- using programs from the command-line interface (CLI) on Unix-like systems (Linux or BSD)
-
-> [!TIP]
-> Some prior knowledge and experience with security testing is strongly recommended.
-
-> [!NOTE]
-> This course is **not** a beginner’s course, but aims to **deepen the knowledge of professional security testers** in relation to systems built with (or containing) Python code.
 
 
 ## Course Overview

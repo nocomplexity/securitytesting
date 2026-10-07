@@ -64,6 +64,7 @@ project:
     - file: about_this_course.md
       children:
         - file: contributing.md
+        - file: sponsors.md
         - file: aboutnocx.md
         - file: license.md
     
