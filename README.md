@@ -5,7 +5,7 @@
 
 [![PythonCodeAudit](https://img.shields.io/badge/Python%20Code%20Audit-Security%20Verified-FF0000?style=for-the-badge)](https://github.com/nocomplexity/codeaudit)
 [![Happy Readers](https://img.shields.io/badge/Happy_Readers-%3E95k-blue?style=for-the-badge)](https://pythonsecurity.nocomplexity.com)
-[![License](https://img.shields.io/badge/License-CC%20BY--SA-green?style=for-the-badge)](...)
+[![License](https://img.shields.io/badge/License-CC%20BY--SA-green?style=for-the-badge)](https://securitytesting.nocomplexity.com/license/)
 [![Pay What You Can](https://img.shields.io/badge/Pay_What_You_Can-💛-yellow?style=for-the-badge)](https://donate.stripe.com/28E8wP01a9846OD9KQgbm01)
 
 [![Book Cover](python_security_testing.png)](https://pythonsecurity.nocomplexity.com)
