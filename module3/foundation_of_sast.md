@@ -17,7 +17,7 @@ SAST testing is a **“white-box”** testing approach because it analyzes the a
 
 :::{tip} 
 Static Application Security Testing (SAST) is crucial for securing Python applications.
-SAST testing helps proactively identify vulnerabilities directly in the source code. 
+SAST testing helps proactively identify weaknesses directly in the source code. 
 :::
 
 ## Advantages of SAST testing for Python 
