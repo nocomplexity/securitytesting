@@ -50,3 +50,8 @@ For example, when selecting a SAST tool for Python, you can use the following se
 
 
 ![toolselection](/images/selectioncriteria.png)
+
+:::{tip}
+For more detailed guidance on selecting a specific Python SAST tool, see 
+[Assessing SAST Tools:Criteria for Quality](https://nocomplexity.github.io/pythonsecurity/sast-tools/)
+:::
